@@ -1,0 +1,544 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		79E0A7381CDD9AA100556E30 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E0A7371CDD9AA100556E30 /* main.m */; };
+		79E0A73B1CDD9AA100556E30 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E0A73A1CDD9AA100556E30 /* AppDelegate.m */; };
+		79E0A73E1CDD9AA100556E30 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E0A73D1CDD9AA100556E30 /* ViewController.m */; };
+		79E0A7411CDD9AA100556E30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79E0A73F1CDD9AA100556E30 /* Main.storyboard */; };
+		79E0A7431CDD9AA100556E30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79E0A7421CDD9AA100556E30 /* Assets.xcassets */; };
+		79E0A7461CDD9AA100556E30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79E0A7441CDD9AA100556E30 /* LaunchScreen.storyboard */; };
+		79E0A7511CDD9AA100556E30 /* nsqlDelayCarouseIFigureTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E0A7501CDD9AA100556E30 /* nsqlDelayCarouseIFigureTests.m */; };
+		79E0A75C1CDD9AA100556E30 /* nsqlDelayCarouseIFigureUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E0A75B1CDD9AA100556E30 /* nsqlDelayCarouseIFigureUITests.m */; };
+		79E0A7AF1CDDBF1000556E30 /* NSTimer+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E0A7AE1CDDBF1000556E30 /* NSTimer+Addition.m */; };
+		79E0A7B21CDDBF4D00556E30 /* NsqzCarouselView.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E0A7B11CDDBF4D00556E30 /* NsqzCarouselView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		79E0A74D1CDD9AA100556E30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79E0A72B1CDD9AA100556E30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79E0A7321CDD9AA100556E30;
+			remoteInfo = nsqlDelayCarouseIFigure;
+		};
+		79E0A7581CDD9AA100556E30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79E0A72B1CDD9AA100556E30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79E0A7321CDD9AA100556E30;
+			remoteInfo = nsqlDelayCarouseIFigure;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		79E0A7331CDD9AA100556E30 /* nsqlDelayCarouseIFigure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nsqlDelayCarouseIFigure.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		79E0A7371CDD9AA100556E30 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		79E0A7391CDD9AA100556E30 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		79E0A73A1CDD9AA100556E30 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		79E0A73C1CDD9AA100556E30 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		79E0A73D1CDD9AA100556E30 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		79E0A7401CDD9AA100556E30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		79E0A7421CDD9AA100556E30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		79E0A7451CDD9AA100556E30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		79E0A7471CDD9AA100556E30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79E0A74C1CDD9AA100556E30 /* nsqlDelayCarouseIFigureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = nsqlDelayCarouseIFigureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		79E0A7501CDD9AA100556E30 /* nsqlDelayCarouseIFigureTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = nsqlDelayCarouseIFigureTests.m; sourceTree = "<group>"; };
+		79E0A7521CDD9AA100556E30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79E0A7571CDD9AA100556E30 /* nsqlDelayCarouseIFigureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = nsqlDelayCarouseIFigureUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		79E0A75B1CDD9AA100556E30 /* nsqlDelayCarouseIFigureUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = nsqlDelayCarouseIFigureUITests.m; sourceTree = "<group>"; };
+		79E0A75D1CDD9AA100556E30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79E0A7AD1CDDBF1000556E30 /* NSTimer+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+Addition.h"; sourceTree = "<group>"; };
+		79E0A7AE1CDDBF1000556E30 /* NSTimer+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+Addition.m"; sourceTree = "<group>"; };
+		79E0A7B01CDDBF4D00556E30 /* NsqzCarouselView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NsqzCarouselView.h; sourceTree = "<group>"; };
+		79E0A7B11CDDBF4D00556E30 /* NsqzCarouselView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NsqzCarouselView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		79E0A7301CDD9AA100556E30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79E0A7491CDD9AA100556E30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79E0A7541CDD9AA100556E30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		79E0A72A1CDD9AA100556E30 = {
+			isa = PBXGroup;
+			children = (
+				79E0A7351CDD9AA100556E30 /* nsqlDelayCarouseIFigure */,
+				79E0A74F1CDD9AA100556E30 /* nsqlDelayCarouseIFigureTests */,
+				79E0A75A1CDD9AA100556E30 /* nsqlDelayCarouseIFigureUITests */,
+				79E0A7341CDD9AA100556E30 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		79E0A7341CDD9AA100556E30 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				79E0A7331CDD9AA100556E30 /* nsqlDelayCarouseIFigure.app */,
+				79E0A74C1CDD9AA100556E30 /* nsqlDelayCarouseIFigureTests.xctest */,
+				79E0A7571CDD9AA100556E30 /* nsqlDelayCarouseIFigureUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		79E0A7351CDD9AA100556E30 /* nsqlDelayCarouseIFigure */ = {
+			isa = PBXGroup;
+			children = (
+				79E0A7391CDD9AA100556E30 /* AppDelegate.h */,
+				79E0A73A1CDD9AA100556E30 /* AppDelegate.m */,
+				79E0A73C1CDD9AA100556E30 /* ViewController.h */,
+				79E0A73D1CDD9AA100556E30 /* ViewController.m */,
+				79E0A7AC1CDDBEB100556E30 /* nsqzCarousel */,
+				79E0A73F1CDD9AA100556E30 /* Main.storyboard */,
+				79E0A7421CDD9AA100556E30 /* Assets.xcassets */,
+				79E0A7441CDD9AA100556E30 /* LaunchScreen.storyboard */,
+				79E0A7471CDD9AA100556E30 /* Info.plist */,
+				79E0A7361CDD9AA100556E30 /* Supporting Files */,
+			);
+			path = nsqlDelayCarouseIFigure;
+			sourceTree = "<group>";
+		};
+		79E0A7361CDD9AA100556E30 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				79E0A7371CDD9AA100556E30 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		79E0A74F1CDD9AA100556E30 /* nsqlDelayCarouseIFigureTests */ = {
+			isa = PBXGroup;
+			children = (
+				79E0A7501CDD9AA100556E30 /* nsqlDelayCarouseIFigureTests.m */,
+				79E0A7521CDD9AA100556E30 /* Info.plist */,
+			);
+			path = nsqlDelayCarouseIFigureTests;
+			sourceTree = "<group>";
+		};
+		79E0A75A1CDD9AA100556E30 /* nsqlDelayCarouseIFigureUITests */ = {
+			isa = PBXGroup;
+			children = (
+				79E0A75B1CDD9AA100556E30 /* nsqlDelayCarouseIFigureUITests.m */,
+				79E0A75D1CDD9AA100556E30 /* Info.plist */,
+			);
+			path = nsqlDelayCarouseIFigureUITests;
+			sourceTree = "<group>";
+		};
+		79E0A7AC1CDDBEB100556E30 /* nsqzCarousel */ = {
+			isa = PBXGroup;
+			children = (
+				79E0A7AD1CDDBF1000556E30 /* NSTimer+Addition.h */,
+				79E0A7AE1CDDBF1000556E30 /* NSTimer+Addition.m */,
+				79E0A7B01CDDBF4D00556E30 /* NsqzCarouselView.h */,
+				79E0A7B11CDDBF4D00556E30 /* NsqzCarouselView.m */,
+			);
+			path = nsqzCarousel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		79E0A7321CDD9AA100556E30 /* nsqlDelayCarouseIFigure */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79E0A7601CDD9AA100556E30 /* Build configuration list for PBXNativeTarget "nsqlDelayCarouseIFigure" */;
+			buildPhases = (
+				79E0A72F1CDD9AA100556E30 /* Sources */,
+				79E0A7301CDD9AA100556E30 /* Frameworks */,
+				79E0A7311CDD9AA100556E30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = nsqlDelayCarouseIFigure;
+			productName = nsqlDelayCarouseIFigure;
+			productReference = 79E0A7331CDD9AA100556E30 /* nsqlDelayCarouseIFigure.app */;
+			productType = "com.apple.product-type.application";
+		};
+		79E0A74B1CDD9AA100556E30 /* nsqlDelayCarouseIFigureTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79E0A7631CDD9AA100556E30 /* Build configuration list for PBXNativeTarget "nsqlDelayCarouseIFigureTests" */;
+			buildPhases = (
+				79E0A7481CDD9AA100556E30 /* Sources */,
+				79E0A7491CDD9AA100556E30 /* Frameworks */,
+				79E0A74A1CDD9AA100556E30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79E0A74E1CDD9AA100556E30 /* PBXTargetDependency */,
+			);
+			name = nsqlDelayCarouseIFigureTests;
+			productName = nsqlDelayCarouseIFigureTests;
+			productReference = 79E0A74C1CDD9AA100556E30 /* nsqlDelayCarouseIFigureTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		79E0A7561CDD9AA100556E30 /* nsqlDelayCarouseIFigureUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79E0A7661CDD9AA100556E30 /* Build configuration list for PBXNativeTarget "nsqlDelayCarouseIFigureUITests" */;
+			buildPhases = (
+				79E0A7531CDD9AA100556E30 /* Sources */,
+				79E0A7541CDD9AA100556E30 /* Frameworks */,
+				79E0A7551CDD9AA100556E30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79E0A7591CDD9AA100556E30 /* PBXTargetDependency */,
+			);
+			name = nsqlDelayCarouseIFigureUITests;
+			productName = nsqlDelayCarouseIFigureUITests;
+			productReference = 79E0A7571CDD9AA100556E30 /* nsqlDelayCarouseIFigureUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		79E0A72B1CDD9AA100556E30 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = hl;
+				TargetAttributes = {
+					79E0A7321CDD9AA100556E30 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = CTSWPP9ZMV;
+					};
+					79E0A74B1CDD9AA100556E30 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = CTSWPP9ZMV;
+						TestTargetID = 79E0A7321CDD9AA100556E30;
+					};
+					79E0A7561CDD9AA100556E30 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = CTSWPP9ZMV;
+						TestTargetID = 79E0A7321CDD9AA100556E30;
+					};
+				};
+			};
+			buildConfigurationList = 79E0A72E1CDD9AA100556E30 /* Build configuration list for PBXProject "nsqlDelayCarouseIFigure" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 79E0A72A1CDD9AA100556E30;
+			productRefGroup = 79E0A7341CDD9AA100556E30 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				79E0A7321CDD9AA100556E30 /* nsqlDelayCarouseIFigure */,
+				79E0A74B1CDD9AA100556E30 /* nsqlDelayCarouseIFigureTests */,
+				79E0A7561CDD9AA100556E30 /* nsqlDelayCarouseIFigureUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		79E0A7311CDD9AA100556E30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79E0A7461CDD9AA100556E30 /* LaunchScreen.storyboard in Resources */,
+				79E0A7431CDD9AA100556E30 /* Assets.xcassets in Resources */,
+				79E0A7411CDD9AA100556E30 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79E0A74A1CDD9AA100556E30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79E0A7551CDD9AA100556E30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		79E0A72F1CDD9AA100556E30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79E0A73E1CDD9AA100556E30 /* ViewController.m in Sources */,
+				79E0A73B1CDD9AA100556E30 /* AppDelegate.m in Sources */,
+				79E0A7AF1CDDBF1000556E30 /* NSTimer+Addition.m in Sources */,
+				79E0A7B21CDDBF4D00556E30 /* NsqzCarouselView.m in Sources */,
+				79E0A7381CDD9AA100556E30 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79E0A7481CDD9AA100556E30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79E0A7511CDD9AA100556E30 /* nsqlDelayCarouseIFigureTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79E0A7531CDD9AA100556E30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79E0A75C1CDD9AA100556E30 /* nsqlDelayCarouseIFigureUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		79E0A74E1CDD9AA100556E30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79E0A7321CDD9AA100556E30 /* nsqlDelayCarouseIFigure */;
+			targetProxy = 79E0A74D1CDD9AA100556E30 /* PBXContainerItemProxy */;
+		};
+		79E0A7591CDD9AA100556E30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79E0A7321CDD9AA100556E30 /* nsqlDelayCarouseIFigure */;
+			targetProxy = 79E0A7581CDD9AA100556E30 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		79E0A73F1CDD9AA100556E30 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79E0A7401CDD9AA100556E30 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		79E0A7441CDD9AA100556E30 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79E0A7451CDD9AA100556E30 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		79E0A75E1CDD9AA100556E30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		79E0A75F1CDD9AA100556E30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		79E0A7611CDD9AA100556E30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = nsqlDelayCarouseIFigure/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nsqz.nsqlDelayCarouseIFigure;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		79E0A7621CDD9AA100556E30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = nsqlDelayCarouseIFigure/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nsqz.nsqlDelayCarouseIFigure;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		79E0A7641CDD9AA100556E30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = nsqlDelayCarouseIFigureTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nsqz.nsqlDelayCarouseIFigureTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/nsqlDelayCarouseIFigure.app/nsqlDelayCarouseIFigure";
+			};
+			name = Debug;
+		};
+		79E0A7651CDD9AA100556E30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = nsqlDelayCarouseIFigureTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nsqz.nsqlDelayCarouseIFigureTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/nsqlDelayCarouseIFigure.app/nsqlDelayCarouseIFigure";
+			};
+			name = Release;
+		};
+		79E0A7671CDD9AA100556E30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = nsqlDelayCarouseIFigureUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nsqz.nsqlDelayCarouseIFigureUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = nsqlDelayCarouseIFigure;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		79E0A7681CDD9AA100556E30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = nsqlDelayCarouseIFigureUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nsqz.nsqlDelayCarouseIFigureUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = nsqlDelayCarouseIFigure;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		79E0A72E1CDD9AA100556E30 /* Build configuration list for PBXProject "nsqlDelayCarouseIFigure" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79E0A75E1CDD9AA100556E30 /* Debug */,
+				79E0A75F1CDD9AA100556E30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79E0A7601CDD9AA100556E30 /* Build configuration list for PBXNativeTarget "nsqlDelayCarouseIFigure" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79E0A7611CDD9AA100556E30 /* Debug */,
+				79E0A7621CDD9AA100556E30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		79E0A7631CDD9AA100556E30 /* Build configuration list for PBXNativeTarget "nsqlDelayCarouseIFigureTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79E0A7641CDD9AA100556E30 /* Debug */,
+				79E0A7651CDD9AA100556E30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		79E0A7661CDD9AA100556E30 /* Build configuration list for PBXNativeTarget "nsqlDelayCarouseIFigureUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79E0A7671CDD9AA100556E30 /* Debug */,
+				79E0A7681CDD9AA100556E30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 79E0A72B1CDD9AA100556E30 /* Project object */;
+}
